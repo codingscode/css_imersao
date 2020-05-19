@@ -1,0 +1,26 @@
+body {
+    /* background: rgb(15, 84, 107); */
+    background-image: url('./foto1.jpg');
+    color: white;
+    font-family: sans-serif;
+    /* background-size: auto 100%;    */                   
+    background-repeat: no-repeat;
+    /* background-position: center center;  */
+
+    background-attachment: scroll;  
+    /* background-position: 0% 0% 0% 0%; */
+    background-size: contain;
+    width: auto;
+}
+
+ul {
+    color: gold;
+}
+
+a {
+    color: lightgreen;
+}
+
+
+
+
