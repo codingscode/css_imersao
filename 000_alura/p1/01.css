@@ -1,16 +1,13 @@
 body {
-    /* background: rgb(15, 84, 107); */
-    background-image: url('./foto1.jpg');
+    background: rgb(15, 84, 107);
+    /* background-image: url('./foto1.jpg'); */
+    
     color: white;
     font-family: sans-serif;
-    /* background-size: auto 100%;    */                   
     background-repeat: no-repeat;
-    /* background-position: center center;  */
-
     background-attachment: scroll;  
-    /* background-position: 0% 0% 0% 0%; */
     background-size: contain;
-    width: auto;
+    width: 100%;
 }
 
 ul {
@@ -19,8 +16,16 @@ ul {
 
 a {
     color: lightgreen;
+    text-decoration: none;
 }
 
+a:hover {
+    /* text-decoration: underline; */
+    text-decoration: line-through;
+}
 
+.menu {
+    background-color: black;
+}
 
 
