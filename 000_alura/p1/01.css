@@ -1,13 +1,13 @@
 body {
-    background: rgb(15, 84, 107);
-    /* background-image: url('./foto1.jpg'); */
+    /* background: rgb(15, 84, 107); */
+    background-image: url('./foto2.jpg'); 
     
     color: white;
     font-family: sans-serif;
     background-repeat: no-repeat;
     background-attachment: scroll;  
-    background-size: 50px 500px;
-    width: auto;
+    background-size: auto 100vh;
+    
 
 }
 
