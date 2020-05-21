@@ -13,7 +13,7 @@ body {
     background-attachment: scroll;  
     background-size: cover;
     font-size: 10px;
-    /* height: 100vh; */ 
+    height: 100vh; 
     /* margin: 0; coloquei no *{}    */
 }
 
@@ -106,21 +106,30 @@ a:hover {
 }
 
 section {
-    color: azure;
+    color: rgb(18, 224, 46);
     font-size: 1rem;
 }
 
 .portfolio h2 {
     font-family: 'Piedra', cursive;
+    color: lightyellow;
+    margin-bottom: 1.3em;
+}
+
+.portfolio {
+    background-color: chocolate;
+    padding: 2em;
+    
 }
 
 .img-portfolio {
     height: 100px;
     width: 100px;
+    border: solid 1px blue;
 }
 
 header {
-    height: 60vh;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
