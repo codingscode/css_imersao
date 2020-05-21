@@ -12,7 +12,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: scroll;  
     background-size: cover;
-    /* height: 100vh; */
+    /* height: 100vh; */ 
     /* margin: 0; coloquei no *{}    */
 }
 
@@ -33,7 +33,8 @@ a:hover {
 .menu {
     background-color: black;
     height: 50px;
-    
+    width: 100vw;
+    position: fixed; /* fixa no scroll */
 }
 
 .menu li {
@@ -61,7 +62,15 @@ section {
     font-size: 1rem;
 }
 
+.img-portfolio {
+    height: 100px;
+    width: 100px;
+}
 
-
-
+header {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
