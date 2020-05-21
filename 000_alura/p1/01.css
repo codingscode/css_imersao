@@ -35,6 +35,7 @@ a:hover {
     height: 50px;
     width: 100vw;
     position: fixed; /* fixa no scroll */
+    top: 0;
 }
 
 .menu li {
@@ -45,6 +46,12 @@ a:hover {
     display: flex; /* colado na horizontal*/
     /* justify-content: space-between; */
     justify-content: space-around;
+}
+
+.menu a {
+    display: block;
+    padding-top: 10px;
+    
 }
 
 .site-subtitulo, .site-titulo {
