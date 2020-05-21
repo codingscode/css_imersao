@@ -17,6 +17,24 @@ body {
     /* margin: 0; coloquei no *{}    */
 }
 
+@font-face {
+    font-family: 'Mr Dafoe';
+    src: url('./fonts/MrDafoe-Regular/MrDafoe-Regular.ttf');
+    
+}
+
+@font-face {
+    font-family: 'Squada One';
+    src: url('./fonts/Pacifico/Pacifico-Regular.ttf');
+    
+}
+
+@font-face {
+    font-family: 'Piedra';
+    src: url('./fonts/Piedra/Piedra-Regular.ttf');
+    
+}
+
 /* se a tela tiver pelo menos 400px vai carregar estes estilos */
 @media (min-width: 400px) {
    body {
@@ -24,6 +42,7 @@ body {
    }
 }
 
+/* breakpoint */
 @media (min-width: 600px) {
     body {
         font-size: 18px;
@@ -71,17 +90,28 @@ a:hover {
 .site-subtitulo, .site-titulo {
     text-align: center;
     color: rgb(70, 17, 192);
-    
+    /* font-size: 24px; /* o tamanho da fonte prevalece sobre @ */ 
 }
 
 .site-subtitulo {
     /* color: wheat; */
-    font-style: italic;
+    font-style: italic; 
+    font-family: 'Mr Dafoe', cursive;
+    line-height: 1.5em;
+}
+
+.site-titulo {
+    font-size: 4em;
+    font-family: 'Squada One', cursive;
 }
 
 section {
     color: azure;
     font-size: 1rem;
+}
+
+.portfolio h2 {
+    font-family: 'Piedra', cursive;
 }
 
 .img-portfolio {
