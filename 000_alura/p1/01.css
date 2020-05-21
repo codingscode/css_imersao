@@ -7,7 +7,6 @@
 body {
     /* background: rgb(15, 84, 107); */
     background-image: url('./foto2.jpg'); 
-    
     font-family: sans-serif;
     background-repeat: no-repeat;
     background-attachment: scroll;  
@@ -20,19 +19,16 @@ body {
 @font-face {
     font-family: 'Mr Dafoe';
     src: url('./fonts/MrDafoe-Regular/MrDafoe-Regular.ttf');
-    
 }
 
 @font-face {
     font-family: 'Squada One';
     src: url('./fonts/Pacifico/Pacifico-Regular.ttf');
-    
 }
 
 @font-face {
     font-family: 'Piedra';
     src: url('./fonts/Piedra/Piedra-Regular.ttf');
-    
 }
 
 /* se a tela tiver pelo menos 400px vai carregar estes estilos */
@@ -94,10 +90,11 @@ a:hover {
 }
 
 .site-subtitulo {
-    /* color: wheat; */
-    font-style: italic; 
+    color: lightgoldenrodyellow;
+    /* font-style: italic;  */
     font-family: 'Mr Dafoe', cursive;
     line-height: 1.5em;
+    font-size: 1.5em;
 }
 
 .site-titulo {
@@ -122,9 +119,18 @@ section {
     
 }
 
+.portfolio .grid {
+    display: grid;
+    gap: 2em;
+}
+
+.portfolio figure {
+    text-align: center;
+}
+
 .img-portfolio {
-    height: 100px;
-    width: 100px;
+    height: 150px;
+    width: 250px;
     border: solid 1px blue;
 }
 
