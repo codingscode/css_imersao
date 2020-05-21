@@ -12,8 +12,22 @@ body {
     background-repeat: no-repeat;
     background-attachment: scroll;  
     background-size: cover;
+    font-size: 10px;
     /* height: 100vh; */ 
     /* margin: 0; coloquei no *{}    */
+}
+
+/* se a tela tiver pelo menos 400px vai carregar estes estilos */
+@media (min-width: 400px) {
+   body {
+       font-size: 14px;
+   }
+}
+
+@media (min-width: 600px) {
+    body {
+        font-size: 18px;
+    }
 }
 
 ul {
@@ -57,6 +71,7 @@ a:hover {
 .site-subtitulo, .site-titulo {
     text-align: center;
     color: rgb(70, 17, 192);
+    
 }
 
 .site-subtitulo {
@@ -75,7 +90,7 @@ section {
 }
 
 header {
-    height: 100vh;
+    height: 60vh;
     display: flex;
     justify-content: center;
     align-items: center;
