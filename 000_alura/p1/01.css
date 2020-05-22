@@ -108,16 +108,16 @@ section {
     width: 100vw;
 }
 
-.portfolio h2 {
+.contato h2, .portfolio h2 {
     font-family: 'Piedra', cursive;
     color: lightyellow;
     margin-bottom: 1.3em;
 }
 
-.portfolio {
+.contato , .portfolio {
     background-color: chocolate;
     padding: 2em;
-    
+    min-height: 100vh;
 }
 
 .portfolio .grid {
