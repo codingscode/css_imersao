@@ -105,6 +105,7 @@ a:hover {
 section {
     color: rgb(18, 224, 46);
     font-size: 1rem;
+    width: 100vw;
 }
 
 .portfolio h2 {
@@ -122,6 +123,22 @@ section {
 .portfolio .grid {
     display: grid;
     gap: 2em;
+    
+}
+
+@media (min-width: 560px) {
+    .portfolio .grid {
+        grid-template-columns: 240px 240px;
+    }
+}
+
+@media (min-width: 880px) {
+    .portfolio .grid {
+        /* grid-template-columns: 240px 240px 240px; mesmo de baixo */
+        grid-template-columns: repeat(3, 240px);
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 .portfolio figure {
@@ -132,6 +149,14 @@ section {
     height: 150px;
     width: 250px;
     border: solid 1px blue;
+}
+
+@media (min-width: 1200px) {
+    .img-portfolio {
+        height: 150px;
+        width: 250px;
+        border: solid 1px blue;
+    }
 }
 
 header {
