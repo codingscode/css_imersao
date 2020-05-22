@@ -137,7 +137,8 @@ section {
         /* grid-template-columns: 240px 240px 240px; mesmo de baixo */
         grid-template-columns: repeat(3, 240px);
         justify-content: center;
-        align-items: center;
+        align-content: center;
+        height: calc(100vh -8em - 48px);
     }
 }
 
@@ -148,14 +149,17 @@ section {
 .img-portfolio {
     height: 150px;
     width: 250px;
-    border: solid 1px blue;
+    border: solid 1px gray;
+    object-fit: cover;
+    object-position: left bottom;
+    border-radius: 20px;
 }
 
 @media (min-width: 1200px) {
     .img-portfolio {
         height: 150px;
-        width: 250px;
-        border: solid 1px blue;
+        width: 100%;
+        border: solid 1px gray;
     }
 }
 
