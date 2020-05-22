@@ -108,6 +108,19 @@ section {
     width: 100vw;
 }
 
+.contato .icons {
+    text-align: center;
+}
+
+.contato a {
+    color: white;
+    font-size: 3em;
+}
+
+.contato a:hover {
+    text-decoration: none;
+    text-shadow: 3px 3px 8px blue;  /* eixo-x-positivo eixo-y-negativo blur cor */
+}
 .contato h2, .portfolio h2 {
     font-family: 'Piedra', cursive;
     color: lightyellow;
@@ -125,6 +138,7 @@ section {
     gap: 2em;
     
 }
+
 
 @media (min-width: 560px) {
     .portfolio .grid {
