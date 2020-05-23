@@ -80,11 +80,13 @@ a:hover {
 .menu a {
     display: block;
     padding-top: 10px;
-    
+    transition: background-color 3s, color 1s;
 }
 
 .menu a:hover {
-    color: lightsteelblue;
+    color: white;
+    background-color: darkorange;
+    
 }
 
 .site-subtitulo, .site-titulo {
@@ -119,6 +121,11 @@ section {
 .contato a {
     color: white;
     font-size: 3em;
+    transition: text-shadow 750ms;
+}
+
+.contato a:active {
+    color: lightgreen;
 }
 
 .contato a:hover {
