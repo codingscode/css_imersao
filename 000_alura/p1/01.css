@@ -178,6 +178,11 @@ section {
     object-fit: cover;
     object-position: left bottom;
     border-radius: 20px;
+    transition: transform 0.4s;
+}
+
+.img-portfolio:hover {
+    transform: scale(1.3); /* passando o cursor muda-se a escala */
 }
 
 @media (min-width: 1200px) {
