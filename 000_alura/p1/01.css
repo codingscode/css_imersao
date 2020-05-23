@@ -83,6 +83,10 @@ a:hover {
     
 }
 
+.menu a:hover {
+    color: lightsteelblue;
+}
+
 .site-subtitulo, .site-titulo {
     text-align: center;
     color: rgb(70, 17, 192);
