@@ -59,6 +59,10 @@ a:hover {
     /* text-decoration: line-through; */
 }
 
+.titulo {
+    transform: translateY(12vh);
+}
+
 .menu {
     background-color: black;
     height: 50px;
