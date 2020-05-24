@@ -150,13 +150,21 @@ section {
     text-decoration: none;
     text-shadow: 3px 3px 8px blue;  /* eixo-x-positivo eixo-y-negativo blur cor */
 }
-.contato h2, .portfolio h2 {
+
+.sobre p {
+    color: white;
+    text-indent: 2em;
+    margin-bottom: 6px;
+    text-align: justify;
+}
+
+.sobre h2, .contato h2, .portfolio h2 {
     font-family: 'Piedra', cursive;
     color: lightyellow;
     margin-bottom: 1.3em;
 }
 
-.contato , .portfolio {
+.sobre, .contato ,.portfolio {
     background-color: chocolate;
     padding: 2em;
     min-height: 100vh;
