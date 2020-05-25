@@ -182,10 +182,17 @@ section {
     
 }
 
-.sobre img {
+.sobre .avatar img {
     width: 300px;
     height: 300px;
-    border-radius: 16px;
+    /* border-radius: 16px; */
+    
+}
+
+.sobre .avatar {
+    float: right;
+    margin-left: 2em;
+    clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
 }
 
 .portfolio .grid {
@@ -194,6 +201,11 @@ section {
     
 }
 
+@media (max-width: 476px) {
+    .sobre .avatar {
+        clip-path: polygon(0 0, 50% 25%, 100% 0, 100% 64%, 50% 100%, 0 64%);
+    }
+}
 
 @media (min-width: 560px) {
     .portfolio .grid {
