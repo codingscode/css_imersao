@@ -241,13 +241,17 @@ section {
     transform: scale(1) /* rotate(10deg) */ rotateY(180deg);          /* passando o cursor muda-se a escala */
 }
 
+.flip-card {
+    border: solid 1px purple;
+}
+
 .card {
     position: relative;
     transform-style: preserve-3d;
     transition: transform 2s;
 }
 
-.card:hover {
+.flip-card:hover .card {
     transform: rotateY(180deg);
 }
 
