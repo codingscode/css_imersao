@@ -253,7 +253,7 @@ section {
 
 .card-verso {
     background-color: khaki;
-    /* top: 40px; */
+    top: 0px;
     transform: rotateY(180deg);
 }
 
